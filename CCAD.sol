@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.6;
 
-contract CCADHead {
+contract CCAD {
 
     string private      tokenName;
     string private      tokenSymbol;
@@ -32,6 +32,7 @@ contract CCADHead {
         
     }
 
+
     /*
     This function creates new CCAD and sends it to a certain address.
     */
@@ -42,6 +43,7 @@ contract CCADHead {
         return true;
 
     }
+
 
     /*
     This function should be executed when the accumulation period finishes. It sends CCAD to 
